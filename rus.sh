@@ -8,10 +8,10 @@ sudo unzip terraform_1.0.0_linux_amd64
 sudo mv terraform /usr/bin/
 sudo rm -r /home/admin/dave/terraform_1.0.0_linux_amd64.zip
 
-#ec2instance terraform
-cd /home/admin/dave/Git-test
-terraform init 
-terraform apply -y
+# #ec2instance terraform
+# cd /home/admin/dave/Git-test
+# terraform init 
+# terraform apply -auto-approvejen
 
 
 # Jenkins
