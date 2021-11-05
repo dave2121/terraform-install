@@ -4,9 +4,9 @@
 sudo apt update
 sudo apt install unzip
 wget https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.zip
-unzip terraform_1.0.0_linux_amd64.zip/
-rm -r /home/admin/terraform-install/terraform_1.0.0_linux_amd64.zip
-sudo mv /home/admin/terraform-install/terraform  /usr/bin
+unzip /home/admin/test/terraform_1.0.0_linux_amd64.zip
+rm -r /home/admin/test/terraform_1.0.0_linux_amd64.zip
+sudo mv /home/admin/test/terraform  /usr/bin
 
 
 # Jenkins
